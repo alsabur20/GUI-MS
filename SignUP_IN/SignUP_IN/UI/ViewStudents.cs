@@ -23,17 +23,17 @@ namespace GLMS.UI
         private void DataBind()
         {
             dG.DataSource = null;
-            dG.DataSource= GetUsers();
+            dG.DataSource = GetUsers();
             dG.Refresh();
         }
         private List<Tuple<string, int, int>> GetUsers()
         {
-            List<Tuple<string, int,int>> tuples = new List<Tuple<string, int, int>>();
-            foreach(User x in UserDL.Users)
+            List<Tuple<string, int, int>> tuples = new List<Tuple<string, int, int>>();
+            foreach (User x in UserDL.Users)
             {
                 if (x is Student s)
                 {
-                    Tuple<string, int,int> y = new Tuple<string, int,int>(s.GetName(),s.Jamat,s.IssuedBooks.Count);
+                    Tuple<string, int, int> y = new Tuple<string, int, int>(s.GetName(), s.Jamat, s.IssuedBooks.Count);
                     tuples.Add(y);
                 }
             }

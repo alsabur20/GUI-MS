@@ -25,7 +25,7 @@ namespace GLMS.UI
 
         private void save_btn_Click(object sender, EventArgs e)
         {
-            if(p1.Text==this.user.Password)
+            if (p1.Text == this.user.Password)
             {
                 if (p2.Text == p3.Text)
                 {

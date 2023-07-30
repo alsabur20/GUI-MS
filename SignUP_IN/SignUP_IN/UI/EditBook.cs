@@ -28,7 +28,7 @@ namespace GLMS.UI
         {
             int index = e.RowIndex;
             string bname = dG.Rows[index].Cells[2].Value.ToString();
-            int bIndex= BookDL.ReturnBookIndex(bname);
+            int bIndex = BookDL.ReturnBookIndex(bname);
             EditBookSubForm editBookSubForm = new EditBookSubForm(BookDL.ReturnBookFromString(bname), bIndex);
             editBookSubForm.Show();
 

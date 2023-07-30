@@ -16,7 +16,7 @@ namespace GLMS.UI
     {
         private User user;
         private Form activeForm = null;
-        
+
         public StudentUI(User user)
         {
             this.user = user;
@@ -61,7 +61,7 @@ namespace GLMS.UI
 
         private void return_btn_Click(object sender, EventArgs e)
         {
-            ReturnBook returnBook=new ReturnBook(user);
+            ReturnBook returnBook = new ReturnBook(user);
             returnBook.HideSearchPanel();
             openChildForm(returnBook);
         }
@@ -80,15 +80,17 @@ namespace GLMS.UI
 
         private void name_btn_Click(object sender, EventArgs e)
         {
-            MyAccount myAccount=new MyAccount(this.user);
+            MyAccount myAccount = new MyAccount(this.user);
             openChildForm(myAccount);
         }
 
         private void home_btn_Click(object sender, EventArgs e)
         {
             if (activeForm != null)
+            {
                 activeForm.Close();
-            activeForm.Controls.Clear();
+                activeForm.Controls.Clear();
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)

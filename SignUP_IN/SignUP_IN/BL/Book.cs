@@ -124,7 +124,7 @@ namespace GLMS.BL
             string book = this.BookID.ToString().PadRight(10) + this.BookName.PadRight(20) + this.Author.PadRight(20) + this.Genre.PadRight(20);
             if (this.IsIssued)
             {
-                book += "Issued".PadRight(20) + this.IssueDate.ToShortDateString().PadRight(20)+ this.ReturnDate.ToShortDateString().PadRight(20)+ this.Issuer.PadRight(20);
+                book += "Issued".PadRight(20) + this.IssueDate.ToShortDateString().PadRight(20) + this.ReturnDate.ToShortDateString().PadRight(20) + this.Issuer.PadRight(20);
             }
             else
             {

@@ -9,7 +9,7 @@ namespace GLMS.BL
     {
         private bool isAdmin;
         private int jamat;
-        private List<Book> issuedBooks=new List<Book>();
+        private List<Book> issuedBooks = new List<Book>();
 
         public bool IsAdmin { get => isAdmin; set => isAdmin = value; }
         public int Jamat { get => jamat; set => jamat = value; }
@@ -37,7 +37,7 @@ namespace GLMS.BL
         }
         public override string WriteToFile()
         {
-            return base.WriteToFile()+this.Jamat.ToString()+","+this.IsAdmin;
+            return base.WriteToFile() + this.Jamat.ToString() + "," + this.IsAdmin;
         }
         public override string toString()
         {
@@ -46,7 +46,7 @@ namespace GLMS.BL
         public int CountLateBooks()
         {
             int counter = 0;
-            foreach(Book b in this.IssuedBooks)
+            foreach (Book b in this.IssuedBooks)
             {
                 if (b.IsBookLate(DateTime.Now))
                 {
@@ -57,7 +57,7 @@ namespace GLMS.BL
         }
         public List<Book> ReturnLateBooks()
         {
-            List<Book> LateBooks = new List<Book>();    
+            List<Book> LateBooks = new List<Book>();
             foreach (Book b in this.IssuedBooks)
             {
                 if (b.IsBookLate(DateTime.Now))

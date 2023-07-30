@@ -40,12 +40,12 @@ namespace GLMS.UI
         private int Deletebook(DataGridViewCellEventArgs e)
         {
             int index = e.RowIndex;
-            string bname= dG.Rows[index].Cells[2].Value.ToString();
+            string bname = dG.Rows[index].Cells[2].Value.ToString();
             return BookDL.ReturnBookIndex(bname);
         }
         private void dG_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            
+
             if (e.RowIndex == dG.NewRowIndex || e.RowIndex < 0)
                 return;
             if (e.ColumnIndex == dG.Columns["Delete"].Index)
@@ -53,8 +53,6 @@ namespace GLMS.UI
                 BookDL.DeleteBook(Deletebook(e));
                 dataBind(BookDL.Books);
             }
-            
-
         }
     }
 }

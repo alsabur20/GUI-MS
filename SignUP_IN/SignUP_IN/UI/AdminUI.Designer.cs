@@ -334,6 +334,8 @@
             // panelChildForm
             // 
             this.panelChildForm.BackColor = System.Drawing.Color.Transparent;
+            this.panelChildForm.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelChildForm.BackgroundImage")));
+            this.panelChildForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelChildForm.Location = new System.Drawing.Point(266, 59);
             this.panelChildForm.Name = "panelChildForm";

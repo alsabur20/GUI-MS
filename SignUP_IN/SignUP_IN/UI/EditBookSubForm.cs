@@ -36,7 +36,7 @@ namespace GLMS.UI
             string name = bName.Text;
             string author = bAuthor.Text;
             string genre = bGenre.Text;
-            Book nBook=new Book(id, name, author, genre);
+            Book nBook = new Book(id, name, author, genre);
             BookDL.DeleteBook(this.bIndex);
             BookDL.AddBook(nBook);
             this.Hide();

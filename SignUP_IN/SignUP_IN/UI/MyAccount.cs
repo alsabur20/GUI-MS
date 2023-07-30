@@ -17,18 +17,18 @@ namespace GLMS.UI
         private User user;
         public MyAccount(User user)
         {
-            this.user =user;
+            this.user = user;
             InitializeComponent();
         }
 
         private void MyAccount_Load(object sender, EventArgs e)
         {
-            uName.Text=this.user.GetName();
-            userName.Text=this.user.GetUserName();
-            uPassword.Text=this.user.GetPassword();
-            uName.Enabled=false;
-            userName.Enabled=false;
-            uPassword.Enabled=false;
+            uName.Text = this.user.GetName();
+            userName.Text = this.user.GetUserName();
+            uPassword.Text = this.user.GetPassword();
+            uName.Enabled = false;
+            userName.Enabled = false;
+            uPassword.Enabled = false;
         }
 
         private void editNameLabel_Click(object sender, EventArgs e)
@@ -38,7 +38,7 @@ namespace GLMS.UI
 
         private void editUsernameLabel_Click(object sender, EventArgs e)
         {
-            userName.Enabled= true;
+            userName.Enabled = true;
         }
 
         private void editPasswordLabel_Click(object sender, EventArgs e)
@@ -57,7 +57,7 @@ namespace GLMS.UI
                 MessageBox.Show("User Editted Successfully");
                 this.Hide();
             }
-            else if(user is Student s)
+            else if (user is Student s)
             {
                 s.Name = uName.Text;
                 s.Username = userName.Text;

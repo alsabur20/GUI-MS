@@ -31,16 +31,16 @@ namespace GLMS.UI
             string name = bName.Text;
             string author = bAuthor.Text;
             string genre = bGenre.Text;
-            BookDL.AddBook(new Book(id,name,author,genre));
+            BookDL.AddBook(new Book(id, name, author, genre));
             ClearForm();
             MessageBox.Show("Book Added Successfully!");
         }
         private void ClearForm()
         {
-            bID.Text =null;
-            bName.Text =null;
-            bAuthor.Text =null;
-            bGenre.Text =null;
+            bID.Text = null;
+            bName.Text = null;
+            bAuthor.Text = null;
+            bGenre.Text = null;
         }
     }
 }

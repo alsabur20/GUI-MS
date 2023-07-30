@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GLMS.DL.BookDL" Collapsed="true">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAgAAAAAAgAAACCAABAAgAAAAAAAQAAAgAAAAAA=</HashCode>
+      <FileName>DL\BookDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.DL.UserDL" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAAAAAAAAAABAAAAAAAAAAAAAgEAAAAAAAgAA=</HashCode>
+      <FileName>DL\UserDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.BL.Admin" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAgEAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.BL.Book" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEEACBACAE0wEAAEpAIABIAGQAACAAAEAgCAAAIBBAA=</HashCode>
+      <FileName>BL\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.BL.Student" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAwAAAAQAAABABACEAgAAhEAAAAAAAAAAA=</HashCode>
+      <FileName>BL\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.BL.User" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAEQAABBUAAAAEAAAGAAAAAgAABAA=</HashCode>
+      <FileName>BL\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.UI.AddBook" Collapsed="true">
+    <Position X="9.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACAAEBACAACAAACCAAAAAAAAAAAkAQAAASA=</HashCode>
+      <FileName>UI\AddBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.UI.AdminUI" Collapsed="true">
+    <Position X="7" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYABCAIABjQBABAIACGBABACAKAIUACACAAAAUBQFAE=</HashCode>
+      <FileName>UI\AdminUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.UI.ChangePassword" Collapsed="true">
+    <Position X="6.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAACACABAAAACBAAACAIERAAAAgAAAAQAAAQA=</HashCode>
+      <FileName>UI\ChangePassword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.UI.DeleteBook" Collapsed="true">
+    <Position X="9.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAABACQAABAAAACAAAACAAEAAAAAAAAAAQAcAQA=</HashCode>
+      <FileName>UI\DeleteBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.UI.EditBook" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAABAAAACAAAACAAAAAAACAAAAIQAMAAA=</HashCode>
+      <FileName>UI\EditBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.UI.EditBookSubForm" Collapsed="true">
+    <Position X="9.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAICAAACAAABACAACAQAACAAAAAAEAAAACASAAASA=</HashCode>
+      <FileName>UI\EditBookSubForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.UI.IssueBook" Collapsed="true">
+    <Position X="2.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEACAABACQAABAAAACAAAACAAAAAAAAAAAAAQAMAQA=</HashCode>
+      <FileName>UI\IssueBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.UI.MyAccount" Collapsed="true">
+    <Position X="4.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAACACAhAAAAKBAAgCAAAAAAAAAEAAEQkAAQA=</HashCode>
+      <FileName>UI\MyAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.UI.ReturnBook" Collapsed="true">
+    <Position X="4.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAABAAACQAABAAAACAAAACAAAgAAAAAAAAEYAOAQA=</HashCode>
+      <FileName>UI\ReturnBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.UI.SearchBook" Collapsed="true">
+    <Position X="4.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAABACQAABAAAACAAAACAAAAAAAAAAAAAQAIAQA=</HashCode>
+      <FileName>UI\SearchBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.UI.StudentUI" Collapsed="true">
+    <Position X="2.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIABCAIABCSBABAIBAGAABACAKAIAACACEAAAUBQBQE=</HashCode>
+      <FileName>UI\StudentUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.UI.ViewBooks" Collapsed="true">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACAAABABAACAAAACAAAAAAAAAAAAAQAAQCA=</HashCode>
+      <FileName>UI\ViewBooks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.UI.ViewStudents" Collapsed="true">
+    <Position X="7" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAAAIAACQAABAAAACAAAACAAAAAAAAAAAAAQAIgAA=</HashCode>
+      <FileName>UI\ViewStudents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.UI.VIssuedBooks" Collapsed="true">
+    <Position X="4.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACAAABAAAACAAAACAAAAAAAAAAAAAQAIAAA=</HashCode>
+      <FileName>UI\VIssuedBooks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.Login" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAEQQAASAAAhAAAACAABEiAIAACBAAAAAEA0BAAAA=</HashCode>
+      <FileName>UI\Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLMS.SignUp" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACABCBAAEACABhkCAAAAAABAAAgQA0BAAAA=</HashCode>
+      <FileName>UI\SignUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

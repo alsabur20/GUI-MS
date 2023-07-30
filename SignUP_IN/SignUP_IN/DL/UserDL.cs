@@ -22,7 +22,7 @@ namespace GLMS.DL
         {
             foreach (User x in Users)
             {
-                if (name == x.GetUserName())
+                if (name == x.GetName())
                 {
                     return x;
                 }

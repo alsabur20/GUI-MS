@@ -50,8 +50,10 @@ namespace GLMS.UI
         private void home_btn_Click(object sender, EventArgs e)
         {
             if (activeForm != null)
+            {
                 activeForm.Close();
-            activeForm.Controls.Clear();
+                activeForm.Controls.Clear();
+            }
         }
 
         private void AdminUI_Load(object sender, EventArgs e)

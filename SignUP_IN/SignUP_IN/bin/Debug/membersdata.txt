@@ -1,3 +1,5 @@
 Maryam,m,m,10,False
 a,a,aa,12,False
-Sabur,s,s,True
+Sabur,sabur,1234,True
+Anas,q,q,True
+anas,w,w,12,False

@@ -17,7 +17,7 @@ namespace GLMS.UI
         private User user;
         public ReturnBook(User user)
         {
-            this.user= user;
+            this.user = user;
             InitializeComponent();
             DataBind();
         }
@@ -35,12 +35,12 @@ namespace GLMS.UI
                     }
                 }
             }
-            else if(this.user is Student s)
+            else if (this.user is Student s)
             {
                 issuedBooks.Clear();
                 foreach (Book book in BookDL.Books)
                 {
-                    if (book.Issuer==s.Name)
+                    if (book.Issuer == s.Name)
                     {
                         issuedBooks.Add(book);
                     }
@@ -75,7 +75,7 @@ namespace GLMS.UI
         public void HideSearchPanel()
         {
             searchPanel.Hide();
-            dG.Dock= DockStyle.Fill;
+            dG.Dock = DockStyle.Fill;
         }
     }
 }
